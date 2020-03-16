@@ -1,4 +1,4 @@
-#define LED 2       // define led (our board has LED connected on 13 pin)
+#define LED 13       // define led (our board has LED connected on 13 pin)
 void setup() // setup loop for initialize all the devices (only one time)
 {
   pinMode(LED, OUTPUT); // making LED as a output device
